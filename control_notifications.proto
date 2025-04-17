@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package notifications;
+
+// Serviço de notificação com controle bidirecional
+service ControlNotifier {
+  rpc NotificationStream (stream Notification) returns (stream Notification);
+}
+
+// Mensagem que pode ser utilizada para notificações ou comandos de controle
+message Notification {
+  // Origem: "client" ou "server"
+  string role = 1;
+  // Tipo: "notification" ou "control"
+  string type = 2;
+  // Comando de controle (ex.: "subscribe", "change_location", "update_now", "list_locations", "disconnect")
+  string command = 3;
+  // Conteúdo da mensagem (por exemplo, dados ou o nome da nova região)
+  string message = 4;
+  // Timestamp formatado para exibição
+  string timestamp = 5;
+  // Timestamp de envio (em segundos) para cálculos de latência, se desejado
+  double send_timestamp = 6;
+}
