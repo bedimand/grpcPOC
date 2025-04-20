@@ -118,10 +118,16 @@ python client.py
 
 ## Observações e Dicas
 
-- O servidor recarrega automaticamente o arquivo `locations.csv` a cada 20 segundos, permitindo atualização dinâmica das informações.
+- O servidor recarrega automaticamente o arquivo `locations.csv` a cada 60 segundos, permitindo atualização dinâmica das informações.
 - O cliente pode ser encerrado a qualquer momento com o comando `disconnect`.
 - O sistema pode ser expandido facilmente para incluir novas regiões ou comandos, bastando editar o CSV ou o arquivo `.proto`.
 - Para múltiplos clientes, basta rodar vários `client.py` em terminais diferentes.
+
+### Detalhes importantes
+
+- O campo `send_timestamp` no proto é do tipo `int64` e representa o timestamp em **nanosegundos** para cálculo preciso de latência entre servidor e cliente.
+- Se o campo `info` do CSV contiver vírgula, coloque-o entre aspas duplas. Exemplo:
+  "São Paulo","São Paulo: Nublado, 21°C."
 
 ---
 
