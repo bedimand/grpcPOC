@@ -125,4 +125,25 @@ python client.py
 
 ---
 
+## ✅ Futuras Melhorias (Extras)
+
+Algumas ideias para expandir ou melhorar esta PoC no futuro:
+
+- 🔐 **Autenticação básica**: Suporte a token ou API Key para acesso seguro.
+- 🧑‍💻 **Interface gráfica (GUI)**: Utilizar Flask, Streamlit ou outra ferramenta para exibição em tempo real dos dados.
+- 🗃️ **Persistência com banco de dados real**: Substituir o CSV por uma base como PostgreSQL, SQLite ou MongoDB.
+- 📊 **Dashboard de métricas**: Monitorar requisições por região, comandos executados, etc.
+- 🧠 **Integração com IA**: Adicionar modelos preditivos ou classificadores baseados nos dados recebidos por região.
+- ☁️ **Deploy em nuvem**: Subir servidor em AWS, GCP ou Heroku para testes externos.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da **MIT License**.
+
+Você pode copiar, modificar, distribuir e usar este projeto para uso pessoal, educacional ou comercial, desde que mantenha o aviso de copyright.
+
+---
+
 Qualquer dúvida ou sugestão, fique à vontade para entrar em contato!
