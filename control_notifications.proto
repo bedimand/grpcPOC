@@ -19,6 +19,6 @@ message Notification {
   string message = 4;
   // Timestamp formatado para exibição
   string timestamp = 5;
-  // Timestamp de envio (em segundos) para cálculos de latência, se desejado
-  double send_timestamp = 6;
+  // Timestamp de envio (em nanosegundos) para cálculos de latência
+  int64 send_timestamp = 6;
 }

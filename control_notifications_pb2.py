@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x63ontrol_notifications.proto\x12\rnotifications\"w\n\x0cNotification\x12\x0c\n\x04role\x18\x01 \x01(\t\x12\x0c\n\x04type\x18\x02 \x01(\t\x12\x0f\n\x07\x63ommand\x18\x03 \x01(\t\x12\x0f\n\x07message\x18\x04 \x01(\t\x12\x11\n\ttimestamp\x18\x05 \x01(\t\x12\x16\n\x0esend_timestamp\x18\x06 \x01(\x01\x32\x65\n\x0f\x43ontrolNotifier\x12R\n\x12NotificationStream\x12\x1b.notifications.Notification\x1a\x1b.notifications.Notification(\x01\x30\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x63ontrol_notifications.proto\x12\rnotifications\"w\n\x0cNotification\x12\x0c\n\x04role\x18\x01 \x01(\t\x12\x0c\n\x04type\x18\x02 \x01(\t\x12\x0f\n\x07\x63ommand\x18\x03 \x01(\t\x12\x0f\n\x07message\x18\x04 \x01(\t\x12\x11\n\ttimestamp\x18\x05 \x01(\t\x12\x16\n\x0esend_timestamp\x18\x06 \x01(\x03\x32\x65\n\x0f\x43ontrolNotifier\x12R\n\x12NotificationStream\x12\x1b.notifications.Notification\x1a\x1b.notifications.Notification(\x01\x30\x01\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)

@@ -1,6 +1,28 @@
 location,info
-Centro,Centro: Ensolarado, temperatura 25°C.
-Zona Leste,Zona Leste: Parcialmente nublado, 22°C.
-Zona Oeste,Zona Oeste: Chuvoso, 20°C.
-Zona Norte,Zona Norte: Nublado, 23°C.
-Zona Sul,Zona Sul: Ensolarado, 26°C.
+"Rio Branco","Rio Branco: Ensolarado, 31°C."
+"Maceió","Maceió: Parcialmente nublado, 28°C."
+"Macapá","Macapá: Chuva leve, 29°C."
+"Manaus","Manaus: Chuvoso, 30°C."
+"Salvador","Salvador: Ensolarado, 27°C."
+"Fortaleza","Fortaleza: Ensolarado, 29°C."
+"Brasília","Brasília: Céu limpo, 24°C."
+"Vitória","Vitória: Parcialmente nublado, 26°C."
+"Goiânia","Goiânia: Ensolarado, 28°C."
+"São Luís","São Luís: Chuva moderada, 27°C."
+"Cuiabá","Cuiabá: Muito quente, 34°C."
+"Campo Grande","Campo Grande: Ensolarado, 32°C."
+"Belo Horizonte","Belo Horizonte: Parcialmente nublado, 25°C."
+"Belém","Belém: Chuvoso, 28°C."
+"João Pessoa","João Pessoa: Ensolarado, 29°C."
+"Curitiba","Curitiba: Frio, 17°C."
+"Recife","Recife: Ensolarado, 30°C."
+"Teresina","Teresina: Muito quente, 36°C."
+"Rio de Janeiro","Rio de Janeiro: Ensolarado, 32°C."
+"Natal","Natal: Parcialmente nublado, 28°C."
+"Porto Alegre","Porto Alegre: Nublado, 22°C."
+"Porto Velho","Porto Velho: Chuvoso, 29°C."
+"Boa Vista","Boa Vista: Ensolarado, 33°C."
+"Florianópolis","Florianópolis: Ensolarado, 24°C."
+"São Paulo","São Paulo: Nublado, 21°C."
+"Aracaju","Aracaju: Parcialmente nublado, 27°C."
+"Palmas","Palmas: Muito quente, 35°C."
